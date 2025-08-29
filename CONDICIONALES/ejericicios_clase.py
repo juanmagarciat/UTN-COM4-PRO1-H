@@ -23,5 +23,9 @@ if validez:
             beca = "MEDIA BECA"
         else:
             beca = "BECA RECHAZADA"
-
+    print(f"NOMBRE Y APELLIDO: {nombre} {apellido}")
+    print(f"PROMEDIO: {promedio_general}")
+    print(f"INGRESOS: ${ingresos_familiares}")
+    print(f"RESULTADO: {beca}")
+    
 

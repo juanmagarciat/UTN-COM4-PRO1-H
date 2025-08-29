@@ -13,5 +13,15 @@ if promedio_general < 0 or promedio_general > 10:
 if ingresos_familiares < 0:
     validez = False
     print('ERROR: INGRESE UN PROMEDIO VALIDO')
+if validez:
+    if promedio_general < 6:
+        beca = "BECA RECHAZADA"
+    if promedio_general >= 6:
+        if ingresos_familiares<300000:
+            beca = "BECA COMPLETA"
+        elif ingresos_familiares >300000 and ingresos_familiares<600000:
+            beca = "MEDIA BECA"
+        else:
+            beca = "BECA RECHAZADA"
 
 
